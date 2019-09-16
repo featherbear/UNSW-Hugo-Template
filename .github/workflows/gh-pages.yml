@@ -16,6 +16,9 @@ jobs:
       with:
         hugo-version: '0.58.2'
 
+    - name: Clone theme
+      run: cd blog/themes && git clone https://github.com/olOwOlo/hugo-theme-even
+
     - name: Build
       run: hugo --gc --minify --cleanDestinationDir -s blog -d public
 
