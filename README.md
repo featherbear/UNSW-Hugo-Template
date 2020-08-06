@@ -1,2 +1,2 @@
 # YOUR COURSE TITLE
-20XX Session XX Course Work
+YYYY Session XX Course Work
