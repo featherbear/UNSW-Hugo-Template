@@ -37,7 +37,7 @@ copyright = "Andrew Wong (z5206677)"
   name = "GitHub"
   weight = 20
   identifier = "code"
-  url = "https://github.com/featherbear/XXXX"
+  url = "https://github.com/featherbear/UNSW-XXXX"
 [[menu.main]]
   name = "Categories"
   weight = 40
@@ -48,15 +48,15 @@ copyright = "Andrew Wong (z5206677)"
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
-  since = "20XX"
+  since = "YYYY"
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "XXXX Musings"
-  keywords = ["Hugo", "theme","even"]
+  keywords = ["featherbear", "XXXX", "UNSW"]
   description = "Musings of a XXXX student"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
-  archivePaginate = 5
+  archivePaginate = 10
 
   # show 'xx Posts In Total' in archive page ?            # 是否在归档页显示文章的总数
   showArchiveCount = false
