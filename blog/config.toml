@@ -138,3 +138,5 @@ copyright = "Andrew Wong (z5206677)"
     endLevel = 2
   [markup.goldmark.renderer]
     unsafe = true
+  [markup.goldmark.extensions]
+    typographer = false
