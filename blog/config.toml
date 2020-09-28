@@ -85,7 +85,7 @@ copyright = "Andrew Wong (z5206677)"
 
   # mathjax
   mathjax = false           # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
-  mathjaxEnableSingleDollar = false                                                     # 是否使用 $...$ 即可進行inline latex渲染
+  mathjaxEnableSingleDollar = true                                                     # 是否使用 $...$ 即可進行inline latex渲染
   mathjaxEnableAutoNumber = false                                                       # 是否使用公式自动编号
   mathjaxUseLocalFiles = false  # You should install mathjax in `yout-site/static/lib/mathjax`
 
