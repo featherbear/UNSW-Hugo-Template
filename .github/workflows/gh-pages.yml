@@ -20,11 +20,11 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --gc --minify --cleanDestinationDir -s blog -d public
+      run: hugo --gc --minify --cleanDestinationDir -s site -d public
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.3.1
       env:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./blog/public
+        PUBLISH_DIR: ./site/public
