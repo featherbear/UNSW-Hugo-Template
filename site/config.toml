@@ -52,6 +52,9 @@ copyright = "Andrew Wong (z5206677)"
   url = "/categories/"
 
 [params]
+  # fathomHost="stats.example.com"
+  # fathomSiteID="ABCDE"
+
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
